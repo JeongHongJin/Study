@@ -1,4 +1,4 @@
-package Study;
+package TeamStudy;
 
 import java.util.Scanner;
 
