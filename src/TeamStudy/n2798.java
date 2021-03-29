@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class n2798 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int answer1 = 0;
-		int answer2 = 0;
+		int answer = 0;
 		int N = sc.nextInt();
 		int M = sc.nextInt();
 		int[] card = new int[N];
@@ -28,10 +27,10 @@ public class n2798 {
 		Arrays.sort(cntarr);
 		for (int y = 0; y < cnt; y++) {
 			if (cntarr[y] <= M) {
-				answer1 = cntarr[y];
+				answer = cntarr[y];
 			}
 		}
-		System.out.println(answer1);
+		System.out.println(answer);
 		sc.close();
 	}
 }
