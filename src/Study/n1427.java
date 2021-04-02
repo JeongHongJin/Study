@@ -8,8 +8,11 @@ import java.util.Arrays;
 public class n1427 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String num = br.readLine();
-		String[] arr = num.split("");
+//		String num = br.readLine();
+//		String[] arr = num.split("");
+		//시간복잡도 단축
+		char[] arr = br.readLine().toCharArray();
+
 		Arrays.sort(arr);
 		for (int i = arr.length - 1; i >= 0; i--) {
 			System.out.print(arr[i]);
