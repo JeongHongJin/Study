@@ -7,8 +7,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-//리스트는 결국 시간조과, 큐는 시간 안의로 들어온다
-public class n18258 {
+public class n10845 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
@@ -19,8 +18,7 @@ public class n18258 {
 			st = new StringTokenizer(br.readLine(), " ");
 			String s = st.nextToken();
 			if (s.equals("push")) {
-				int n = Integer.parseInt(st.nextToken());
-				q.offer(n);
+				q.offer(Integer.parseInt(st.nextToken()));
 			}
 			if (s.equals("front")) {
 				if (q.peek() != null) {
