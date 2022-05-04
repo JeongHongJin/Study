@@ -15,10 +15,6 @@ public class PGR_81303 {
 			for (int i = 0; i < cmdlen; i++) {
 				String[] str = cmd[i].split(" ");
 				char c = str[0].charAt(0);
-				// char nextc =' ';
-				// if(i != cmdlen-1){
-				// nextc = cmd[i+1].charAt(0);
-				// }
 				if (c != 'Z' && c != 'C') {
 					num = Integer.parseInt(str[1]);
 				}
@@ -39,15 +35,6 @@ public class PGR_81303 {
 					size++;
 				}
 			}
-			// while(!del.isEmpty()){
-			// arr[del.pop()] =1;
-			// }
-			// for(int i = 0; i < n;i++){
-			// if(arr[i] == 0)
-			// sb.append('O');
-			// else
-			// sb.append('X');
-			// }
 
 			for (int i = 0; i < size; i++) {
 				sb.append('O');
