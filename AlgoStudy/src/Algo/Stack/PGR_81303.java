@@ -5,7 +5,6 @@ import java.util.Stack;
 public class PGR_81303 {
 	class Solution {
 		public String solution(int n, int k, String[] cmd) {
-			int[] arr = new int[n];
 			int size = n;
 			int idx = k;
 			int cmdlen = cmd.length;
