@@ -1,4 +1,4 @@
-package Algo;
+package Algo.Implement;
 
 import java.io.BufferedReader;
 import java.io.IOException;
