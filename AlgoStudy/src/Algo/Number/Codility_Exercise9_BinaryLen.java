@@ -1,6 +1,6 @@
 package Algo.Number;
 
-public class Codility_Week9_BinaryLen {
+public class Codility_Exercise9_BinaryLen {
 	class Solution {
 		public int solution(int N) {
 			StringBuilder sb = new StringBuilder();
