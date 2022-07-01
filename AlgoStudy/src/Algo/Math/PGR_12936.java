@@ -1,4 +1,4 @@
-package Algo.MST;
+package Algo.Math;
 
 import java.util.ArrayList;
 
