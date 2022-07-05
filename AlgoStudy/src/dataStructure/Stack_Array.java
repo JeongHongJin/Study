@@ -31,6 +31,9 @@ public class Stack_Array {
 		}
 		System.out.println(stack[top]);
 	}
+	public int size() {
+		return size;
+	}
 
 	public boolean isEmpty() {
 		return size == 0;
