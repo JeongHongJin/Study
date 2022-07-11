@@ -1,4 +1,4 @@
-package dataStructure;
+package DataStructure;
 
 //출처:https://st-lab.tistory.com/174
 public interface StackInterface<E> {
