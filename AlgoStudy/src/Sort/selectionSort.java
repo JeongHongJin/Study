@@ -1,5 +1,5 @@
 package Sort;
-
+//출처: https://st-lab.tistory.com/168?category=892973
 public class selectionSort {
 
 	public static void selection_sort(int[] a) {
