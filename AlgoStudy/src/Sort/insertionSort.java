@@ -18,6 +18,9 @@ public class insertionSort {
 				a[j + 1] = a[j];
 				j--;
 			}
+			// while문 탈출 하는 경우 앞의 원소가 타겟보다 작다는 읨
+			// 타겟 우너소는 j번째 원소 뒤에 와야하낟.
+			// 그러므로 타겟은 j + 1애 위치하게 된다.
 			a[j + 1] = target;
 		}
 	}
