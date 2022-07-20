@@ -1,7 +1,7 @@
 package Sort;
 
 //출처: https://st-lab.tistory.com/233?category=892973
-public class mergeSort_topDown {
+public class mergeSortTopDown {
 	public static int[] sorted;
 
 	public static void merge_sort(int[] a) {
