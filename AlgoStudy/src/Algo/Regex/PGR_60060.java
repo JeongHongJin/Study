@@ -9,9 +9,11 @@ public class PGR_60060 {
 			for (int i = 0; i < queries.length; i++) {
 				String s = queries[i].replace("?", ".");
 				int len = s.length();
+				// 시작이 ? 끝은 알파벳
 				if (s.charAt(0) == '.' && (s.charAt(len - 1) >= 'z' && s.charAt(len - 1) <= 'a')) {
 					continue;
 				}
+				// 시작이 알파벳 끝은 ?
 				if (s.charAt(len - 1) == '.' && (s.charAt(0) >= 'z' && s.charAt(0) <= 'a'))
 					continue;
 				if (len - s.replace(".", "").length() != len && s.charAt(0) == '.' && s.charAt(len - 1) == '.') {
