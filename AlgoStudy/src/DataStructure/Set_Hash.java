@@ -334,4 +334,5 @@ class Node<E> {
 		this.key = key;
 		this.next = next;
 	}
+
 }
