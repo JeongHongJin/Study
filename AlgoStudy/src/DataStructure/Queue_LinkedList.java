@@ -1,5 +1,6 @@
 package DataStructure;
 
+//출처: https://st-lab.tistory.com/184?category=856997
 public class Queue_LinkedList<E> {
 	private qNode<E> head;
 	private qNode<E> tail;
