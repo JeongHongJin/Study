@@ -1,4 +1,4 @@
-package Algo;
+package Algo.MST;
 
 import java.io.BufferedReader;
 import java.io.IOException;
