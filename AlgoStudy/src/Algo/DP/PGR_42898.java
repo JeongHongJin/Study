@@ -3,13 +3,12 @@ package Algo.DP;
 public class PGR_42898 {
 	class Solution {
 		public int solution(int m, int n, int[][] puddles) {
-			int answer = 0;
 			int mod = 1000000007;
 			int[][] dp = new int[m + 1][n + 1];
 			dp[0][0] = 1;
 			for (int i = 0; i < puddles.length; i++) {
-				int r = puddles[i][0];
-				int c = puddles[i][1];
+				int r = puddles[i][0] - 1;
+				int c = puddles[i][1] - 1;
 				dp[r][c] = -1;
 			}
 			for (int i = 0; i < m; i++) {
@@ -26,7 +25,7 @@ public class PGR_42898 {
 					}
 				}
 			}
-			return dp[m - 1][n - 1];
+			return dp[m - 1][n - 1] % mod;
 		}
 	}
 }
